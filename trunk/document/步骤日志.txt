@@ -1,0 +1,21 @@
+属于svn服务器
+1，首先创建html文件，文件创建在code里面，文件写完过后首先对文件夹进行add步骤
+2，如果不需要上传很多图片就直接执行img步骤
+3，然后update
+4，commit提交，然后加让第几周内容，并且截图
+5，当需要的时候执行svn剪出
+6，截屏svn的截图
+属于git得
+1，打开git bash here 执行
+2，pwd-->git coloe....克隆
+3，创建code，js,css,img
+4,放入需要的图片或者js
+5，在code里面创建第几周的文件
+6，在周文件夹里面写入需要的html文件
+7，提交到代码仓库：cd-转到目录文件//最顶层的名称默认cd Term_Project_Git/
+8,执行git status
+9,git add .添加文件
+10.git commit -m"..."
+11,git push origin main  提交（有些情况可能需要输入用户名或者密码）
+12，去github查看
+13，截图需要github，svn，效果截图。

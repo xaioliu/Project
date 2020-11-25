@@ -1,0 +1,213 @@
+/* 购物车样式 */
+
+.shoopcart {
+    height: 630px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shoopcart h3 {
+    color: #ff6700;
+    font-size: 24px;
+    text-indent: 20px;
+    font-weight: 500;
+}
+
+.shoopcart table {
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+}
+
+.shoopcart table thead tr th {
+    height: 60px;
+    background-color: #f1f1f1;
+}
+
+.shoopcart .totalPrice {
+    height: 59px;
+    width: 1200px;
+    line-height: 60px;
+    font-size: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+
+/* 所有sapn标签 */
+
+.shoopcart .totalPrice span {
+    margin-right: 150px;
+}
+
+
+/* sapn相同类型 */
+
+.shoopcart .totalPrice span:first-of-type {
+    margin-left: 13px;
+    color: #a6a6a6;
+}
+
+
+/* 删除 */
+
+.shoopcart .totalPrice span:nth-child(3) {
+    height: 60px;
+    margin-left: -92px;
+    color: #a6a6a6;
+}
+
+
+/*  已选*/
+
+.shoopcart .totalPrice span:nth-child(4) {
+    height: 60px;
+    margin-left: 300px;
+    color: #a6a6a6;
+}
+
+
+/*  已选超链接*/
+
+.shoopcart .totalPrice span:nth-child(4) a {
+    text-decoration: none;
+    color: #ff6700;
+}
+
+
+/* 总价 */
+
+.shoopcart .totalPrice span:nth-child(5) {
+    height: 60px;
+    color: #a6a6a6;
+    margin-left: -131px;
+}
+
+
+/* 总价超链接 */
+
+.shoopcart .totalPrice span:nth-child(5) a {
+    text-decoration: none;
+    color: #ff6700;
+    margin-left: 10px;
+}
+
+.shoopcart .totalPrice input {
+    margin-left: 10px;
+}
+
+.shoopcart .totalPrice input span {
+    color: #c4c4c4;
+}
+
+
+/* 去结算 */
+
+.shoopcart .totalPrice div {
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    margin-top: -62px;
+    margin-left: 1100px;
+}
+
+
+/* 去结算按钮 */
+
+.shoopcart .totalPrice div button {
+    width: 127px;
+    height: 62px;
+    background-color: #ff6700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.shoopcart .totalPrice span:last-child {
+    margin-left: 10px;
+}
+
+
+/* 边框 */
+
+.shoopcart .totalPrice {
+    border: 1px solid #c4c4c4;
+}
+
+
+/* 按钮样式 */
+
+.shoopcart table tbody tr td button {
+    width: 25px;
+    height: 25px;
+}
+
+.shoopcart table tbody tr td input {
+    width: 50px;
+    height: 21px;
+}
+
+
+/* 猜你喜欢 */
+
+.love .top {
+    width: 1230px;
+    height: 39px;
+    line-height: 40px;
+    background-color: #fff;
+    border-bottom: 6px solid #ff6700;
+}
+
+
+/* 标题 */
+
+.love .top .title {
+    width: 125px;
+    text-indent: 24px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff6700;
+}
+
+.love .top .title span {
+    margin-left: -20px;
+}
+
+.love .show {
+    width: 1230px;
+    height: 260px;
+}
+
+.love .show li {
+    width: 244px;
+    height: 260px;
+    background-color: #fff;
+    float: left;
+    border: 1px solid #f2f2f2;
+}
+
+.love .show li .book {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.love .show li .dazhe {
+    width: 72px;
+    height: 27px;
+    background-color: red;
+}
+
+.love .show li .recommed {
+    color: #ff6700;
+}
+
+.love .show li p .original {
+    font-size: 20px;
+    color: #f2f2f2f2;
+}
+
+.love .show li p .new {
+    font-size: 20px;
+    color: #f12b0c;
+}
