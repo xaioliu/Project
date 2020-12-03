@@ -66,7 +66,7 @@
     </div>
     <div class="shoopcart container">
         <!-- 标题 -->
-        <h3>全部商品(2)</h3>
+        <h3>全部商品(<i class="goodscount">0</i> )</h3>
         <!-- 表格 -->
         <table>
             <thead>
@@ -85,36 +85,36 @@
                     <td>
                         <img src="../../img/index08_05.jpg" alt="">从你的全世界路过
                     </td>
-                    <td>41.00</td>
-                    <td>
-                        <button>+</button>
-                        <input type="text">
-                        <button>-</button>
+                    <td class="price">41.00</td>
+                    <td class="fiex">
+                        <button class="add">+</button>
+                        <input type="text" value="1" class="num">
+                        <button class="reduce">-</button>
                     </td>
-                    <td>41.00</td>
-                    <td>删除<br><span>移到我的关注</span></td>
+                    <td class="subprice">41.00</td>
+                    <td class="del">删除<br><span>移到我的关注</span></td>
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
                     <td>
                         <img src="../../img/index08_05.jpg" alt="">从你的全世界路过
                     </td>
-                    <td>41.00</td>
+                    <td class="price">51.00</td>
                     <td>
-                        <button>+</button>
-                        <input type="text">
-                        <button>-</button>
+                        <button class="add">+</button>
+                        <input type="text" value="1" class="num">
+                        <button class="reduce">-</button>
                     </td>
-                    <td>41.00</td>
-                    <td>删除<br><span>移到我的关注</span></td>
+                    <td class="subprice">51.00</td>
+                    <td class="del">删除<br><span>移到我的关注</span></td>
                 </tr>
             </tbody>
         </table>
         <div class="totalPrice">
             <input type="checkbox"><span>全选</span>
-            <span>删除选中商品</span>
-            <span>已选择 <a href="#">1</a> 件商品</span>
-            <span>总价<a href="#">41.00</a></span>
+            <span class="deleteChecked">删除选中商品</span>
+            <span>已选择 <i class="count">0</i> 件商品</span>
+            <span class="total">总价<i class="nums">0.00</i></span>
             <div>
                 <button>去结算</button>
             </div>

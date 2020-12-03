@@ -69,7 +69,7 @@
 
 /*  已选超链接*/
 
-.shoopcart .totalPrice span:nth-child(4) a {
+.shoopcart .totalPrice span:nth-child(4) .count {
     text-decoration: none;
     color: #ff6700;
 }
@@ -86,8 +86,7 @@
 
 /* 总价超链接 */
 
-.shoopcart .totalPrice span:nth-child(5) a {
-    text-decoration: none;
+.shoopcart .totalPrice span:nth-child(5) .nums {
     color: #ff6700;
     margin-left: 10px;
 }
@@ -147,6 +146,20 @@
 }
 
 
+/* 数量的样式 */
+
+.shoopcart table tbody tr td .num {
+    text-align: center;
+}
+
+
+/* 总价的样式 */
+
+.shoopcart table tbody tr .subprice {
+    width: 65px;
+}
+
+
 /* 猜你喜欢 */
 
 .love .top {
@@ -178,9 +191,13 @@
     height: 260px;
 }
 
+.love .show li:hover {
+    background-color: #f2f2f2;
+}
+
 .love .show li {
     width: 244px;
-    height: 260px;
+    height: 300px;
     background-color: #fff;
     float: left;
     border: 1px solid #f2f2f2;
@@ -193,8 +210,8 @@
 }
 
 .love .show li .dazhe {
-    width: 72px;
-    height: 27px;
+    width: 90px;
+    height: 25px;
     background-color: red;
 }
 
