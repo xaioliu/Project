@@ -1,0 +1,229 @@
+.product-detail {
+    height: 500px;
+    margin: 50px auto;
+}
+
+.product-detail .left-box {
+    width: 340px;
+    height: 470px;
+    background-color: #fcfcfc;
+}
+
+.product-detail .right-box {
+    width: 800px;
+    height: 500px;
+    background-color: #fcfcfc;
+}
+
+.magnifier-container {
+    height: 380px !important;
+}
+
+
+/* 商品编号 */
+
+.product-detail .left-box {
+    width: 340px;
+    font-size: 15px;
+    color: #636363;
+    text-align: center;
+}
+
+
+/* 盒子上面的连接提示 */
+
+.tite {
+    width: 1200px;
+    height: 50px;
+}
+
+.tite ul li {
+    float: left;
+}
+
+.tite ul li {
+    margin-top: 20px;
+}
+
+.tite ul .title {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.tite ul li+li {
+    color: #636363;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+
+/* 右侧修饰 */
+
+.right-box h1 {
+    height: 40px;
+    font-size: 25px;
+}
+
+.right-box .exe {
+    height: 35px;
+    color: #ff4c49;
+    font-size: 15px;
+}
+
+.right-box .author {
+    height: 35px;
+    color: #636363;
+    font-size: 13px;
+}
+
+.right-box ul {
+    width: 790px;
+    height: 142px;
+    background-color: #f5f5f5;
+}
+
+.right-box ul li {
+    height: 40px;
+    font-size: 14px;
+    color: #a2a2a2;
+}
+
+.right-box ul li .price {
+    color: #f90e0e;
+}
+
+.right-box ul li .full-reduction {
+    color: #f90e0e;
+}
+
+.right-box ul li button {
+    width: 100px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ff6700;
+    color: #f5f5f5;
+}
+
+.right-box .choose-type {
+    margin-top: 10px;
+    height: 25px;
+    text-indent: 8px;
+    font-size: 25px;
+}
+
+.right-box .choose-type button {
+    width: 100px;
+    height: 35px;
+    border: 1px solid #636363;
+}
+
+.right-box .choose-type button:hover {
+    border: 1px solid #ff6700;
+}
+
+.right-box .choose {
+    height: 80px;
+    padding-top: 80px;
+}
+
+.right-box .choose .num {
+    width: 50px;
+    height: 30px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.right-box .choose .add {
+    width: 50px;
+    height: 30px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.right-box .choose .reduce {
+    width: 50px;
+    height: 30px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.right-box .choose .shoop {
+    width: 170px;
+    height: 60px;
+    background-color: #ff6700;
+    color: #f5f5f5;
+}
+
+.right-box .tips {
+    color: #636363;
+}
+
+
+/* 猜你喜欢 */
+
+.love .top {
+    width: 1230px;
+    height: 39px;
+    line-height: 40px;
+    background-color: #fff;
+    border-bottom: 6px solid #ff6700;
+}
+
+
+/* 标题 */
+
+.love .top .title {
+    width: 125px;
+    text-indent: 24px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff6700;
+}
+
+.love .top .title span {
+    margin-left: -20px;
+}
+
+.love .show {
+    width: 1230px;
+    height: 260px;
+}
+
+.love .show li:hover {
+    background-color: #f2f2f2;
+}
+
+.love .show li {
+    width: 244px;
+    height: 300px;
+    background-color: #fff;
+    float: left;
+    border: 1px solid #f2f2f2;
+}
+
+.love .show li .book {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.love .show li .dazhe {
+    width: 90px;
+    height: 25px;
+    background-color: red;
+}
+
+.love .show li .recommed {
+    color: #ff6700;
+}
+
+.love .show li p .original {
+    font-size: 20px;
+    color: #f2f2f2f2;
+}
+
+.love .show li p .new {
+    font-size: 20px;
+    color: #f12b0c;
+}
