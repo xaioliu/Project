@@ -30,4 +30,43 @@ $(function() {
         // 获取内容
         $('.ez-banner').eq(index).show().siblings().hide()
     })
+
+    // 换一批
+
+    // 上下切换
+    // 定一个索引
+    var index = 0;
+    $('.change').click(function() {
+        // 自增
+        index++;
+        // 边界判断
+        //  index = index > 2 ? 0 : index
+
+        $('.inner-box').stop(true).animate({
+            top: -index * 500,
+        }, function() {
+            if (index === 2) {
+                index = 0;
+                $('.inner-box').css('top', 0);
+            }
+        })
+    })
+
+    // 上下切换
+    // 定一个索引
+    // var index = 0;
+    // $('.change').click(function() {
+    //     // 自增
+    //     index++;
+    //     // 边界判断
+    //     // 让里面的盒子动起来
+    //     $('.inner-box').stop(true).animate({
+    //         left: -index * 1200,
+    //     }, function() {
+    //         if (index === 2) {
+    //             index = 0;
+    //             $('.inner-box').css('left', 0);
+    //         }
+    //     })
+    // })
 })
