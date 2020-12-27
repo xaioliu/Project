@@ -82,7 +82,8 @@
 
 /* 上下滑动 */
 
-.out-box {
+
+/* .out-box {
     overflow: hidden;
 }
 
@@ -110,13 +111,12 @@
 .gues-you-like-content .inner-box li .price {
     color: red;
     font-size: 20px;
-}
+} */
 
 
 /* 左右滑动 */
 
-
-/* .out-box {
+.out-box {
     overflow: hidden;
 }
 
@@ -144,4 +144,4 @@
 .gues-you-like-content .inner-box li .price {
     color: red;
     font-size: 20px;
-} */
+}

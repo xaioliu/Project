@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星级评分</title>
+    <link rel="stylesheet" href="../../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../../css/start.css">
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+
+    <!-- 引入jQuery文件 -->
+    <script src="../../js/jquery.js "></script>
+    <!-- 引入封装的函数 -->
+    <script src="../../js/start.js"></script>
+    <script>
+        $(function() {
+            var start = createStart(3.2);
+            $('.box1').html(start);
+            var start1 = createStart(4.3);
+            $('.box2').html(start1);
+            var start2 = createStart(3.6);
+            $('.box3').html(start2);
+            // 扩展插件
+            // $('.box1').createStart(3.6)
+            // $('.box2').createStart(4.6)
+            // $('.box3').createStart(2.2)
+        })
+    </script>
+</body>
+
+</html>

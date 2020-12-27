@@ -1,0 +1,64 @@
+.regist {
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+}
+
+.regist h1 {
+    font-size: 25px;
+    text-align: center;
+    color: rgba(84, 218, 124, 0.867);
+}
+
+form {
+    width: 850px;
+    height: 500px;
+    border: 1px solid #8f8f89;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: -110px;
+}
+
+.regist p input {
+    width: 200px;
+    height: 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
+    outline: none;
+}
+
+.regist p .pm {
+    margin-left: 26px;
+}
+
+.regist p {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.regist p .mm {
+    margin-left: 12px;
+}
+
+.regist p .yzm {
+    margin-left: 13px;
+}
+
+.regist p .submit {
+    width: 150px;
+    height: 50px;
+    margin-left: 65px;
+    margin-top: 60px;
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+}
+
+.error:first-child {
+    border: 1px solid red;
+    color: #333;
+}
